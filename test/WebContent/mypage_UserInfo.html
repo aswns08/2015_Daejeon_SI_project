@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>My Page-UserInfo</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">Cook's</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                	<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 로그아웃</a></li>
+        			<li><a href="#"><span class="glyphicon glyphicon-user"></span> 마이페이지</a></li>
+        			<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> 장바구니</a></li>
+      			</ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+
+<!--     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"> -->
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+<!--                 <a class="navbar-brand" href="#">Start Bootstrap</a> -->
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">인기메뉴</a>
+                    </li>
+                    <li>
+                        <a href="#">맛집</a>
+                    </li>
+                    <li>
+                        <a href="#">커뮤니티</a>
+                    </li>
+                    <li>
+                        <a href="#">공지사항</a>
+                    </li>
+                    <li>
+                        <a href="#">음식후기</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+<!--     </nav> -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+        
+        <div class="row row-offcanvas row-offcanvas-left">
+        
+         <div class="col-sm-3 col-md-2 sidebar-offcanvas" id="sidebar" role="navigation">
+           
+            <ul class="nav nav-sidebar" style="margin-top: 15px;">
+              <li class="active"><a href="#">주문내역/취소</a></li>
+              <li><a href="#">구매내역</a></li>
+              <li><a href="#">마일리지</a></li>
+              <li><a href="#">나의 Q&A</a></li>
+              <li><a href="#">회원정보수정</a></li>
+            </ul>
+          
+        </div><!--/span-->
+        
+        <div class="col-sm-9 col-md-10 main">
+          
+          <!--toggle sidebar button-->
+          <p class="visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas"><i class="glyphicon glyphicon-chevron-left"></i></button>
+          </p>
+
+          <h2 class="sub-header">회원정보수정</h2>
+          <div class="table-responsive">
+            <div>
+					<form role="form">
+						<div class="form-group">
+
+							<label for="usr">아이디</label> <input type="text"
+								class="form-control" placeholder="ID" id="id"> <br>
+
+							<label for="password">비밀번호</label> <input type="password"
+								class="form-control" placeholder="PASSWORD" id="password">
+							<br> <label for="name">이름</label> <input type="text"
+								class="form-control" placeholder="USER NAME" id="name">
+							<br> <label for="address">주소</label> <input type="text"
+								class="form-control" placeholder="ADDRESS" id="address">
+							<br> <label for="phone">연락처</label> <input type="text"
+								class="form-control" placeholder="PHONE NUMBER" id="phone">
+
+						</div>
+					</form>
+
+				</div>
+				
+				<div>
+					<button type="submit" name="btn_signUp"
+						class="btn btn-lg btn-block btn-success">수정하기</button>
+				</div>
+				
+          </div>
+
+      </div><!--/row-->
+	</div>
+
+            </div>
+
+        </div>
+
+<!--     </div> -->
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Get Hyped for Food</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
